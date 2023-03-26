@@ -10,9 +10,9 @@ console.log('Fatorial de 5:', fatorial(5))
 
 //Implementação Recursiva
 
-function fatorialRec(number){
-    if(number <= 1) return 1
-    return number * fatorialRec(number-1)
+function fatorialRecursivo(number){
+    if(number <= 1) ret
+    return number * fatorialRecursivo(number-1)
 }
 
-console.log('Fatorial Recursivo de 5:', fatorialRec(5))
+console.log('Fatorial Recursivo de 5:', fatorialRecursivo(5))
