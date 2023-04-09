@@ -9,13 +9,13 @@ function selectionSort(array, funcaoDeComparacao) {
         pass++
 
         for (let i = menorPosicao + 1; i < array.length; i++) {
-            if (funcaoDeComparacao(array[menorPosicao] > array[i])) {
+            if (funcaoDeComparacao(array[menorPosicao], array[i])) {
                 menorPosicao = i
                 comp++
             }
         }
 
-        if (funcaoDeComparacao(array[posicaoSelecionada] > array[menorPosicao])) {
+        if (funcaoDeComparacao(array[posicaoSelecionada], array[menorPosicao])) {
             [array[posicaoSelecionada], array[menorPosicao]] = [array[menorPosicao], array[posicaoSelecionada]]
             trocas++
         }
