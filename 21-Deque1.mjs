@@ -10,8 +10,9 @@ loves.insertAtStart("Renato"); //Começo do namoro em 2022.1
 
 console.log(loves.print())
 
-loves.removeAtTheEnd() //Terminamos o namoro em 2022.2
+let removed = loves.removeAtTheEnd() //Terminamos o namoro em 2022.2
 
+console.log(removed)
 console.log(loves.print())
 
 loves.insertAtEnd("Rafael"); //...
